@@ -10,14 +10,14 @@ export const Container = styled.div`
 
 export const MovieList = styled.ul`
     list-style: none;
-    // display: grid;
-    // grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    display: flex;
-    justify-content: space-around;
-    flew-direction: column;
-    align-items: center;
-    // column-gap: 3rem;
-    // row-gap: 4rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    // display: flex;
+    // justify-content: space-around;
+    // flew-direction: column;
+    // align-items: center;
+    column-gap: 3rem;
+    row-gap: 4rem;
 
 `
 
@@ -33,8 +33,9 @@ export const Movie = styled.li`
     }
 
     span{
-        font-weight: bold;
+        font-weight: 500;
         font-size: 120%;
+        text-align: center;
     }
     a{
         transition: all 0.3s;
